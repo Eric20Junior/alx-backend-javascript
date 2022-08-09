@@ -1,4 +1,5 @@
-module.exports = function displayMessage(msg) {
-  console.log(msg);
-  // process.stdout.write(msg);
-};
+function displayMessage(string) {
+	console.log(string);
+}
+
+module.exports = displayMessage;
